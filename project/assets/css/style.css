@@ -1,0 +1,75 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*  ---------------Global Styles-----------------  */
+body {
+  margin: 0;
+  font-family: "DM Serif Text", serif;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 20px;
+  margin: 20px auto;
+}
+
+/*  ---------------Header Styles-----------------  */ 
+
+.top-nav ul{
+  padding: 20px;
+  display: flex;
+  justify-content:flex-end;
+  gap: 20px;
+  list-style: none;
+  background: #FFFCEA;
+  margin: 0;
+}
+.top-nav a{
+  text-decoration: none;
+  color: #000000;
+}
+.top-nav a:hover{
+  color: #008B8B;
+}
+
+
+.main-nav {
+  display: flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #008B8B;
+}
+
+
+.bottom-nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.bottom-nav a{
+  text-decoration: none;
+  color: #FFFCEA;
+}
+
+.bottom-nav a:hover{
+  color: #000000;
+}
+
+/*  ---------------Cover image-----------------  */ 
+
+#bio{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
